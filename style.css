@@ -50,6 +50,10 @@ p {
     padding: 8px 16px;
 }
 
+.number:focus{
+    color: white;
+    background-color: hsl(25, 97%, 53%);
+
 .hover:hover {
     background-color: hsl(217, 12%, 63%);
     color: white;
