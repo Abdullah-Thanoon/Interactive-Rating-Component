@@ -1,5 +1,4 @@
-$('.number').one("click", function(){
-  
+$('.number').click (function(){
     $('#rate').html($(this).html());
 });
 
