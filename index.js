@@ -1,8 +1,6 @@
 $('.number').one("click", function(){
-    
-    this.setAttribute("style","color: white; background-color: hsl(25, 97%, 53%);");
-    var rate = $(this).html();
-    $('#rate').html(rate);
+  
+    $('#rate').html($(this).html());
 });
 
 $('.submit').one("click", function(){
